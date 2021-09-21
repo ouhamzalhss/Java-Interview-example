@@ -42,8 +42,8 @@ Overriding : décrit le fait que deux méthodes (ou plus) peuvent avoir le même
 
 == | equals() 
 --- | --- 
-est un opérateur | est une méthode
-pour la comparaison de références (ou d'adresses, emplacement de mémoire) |  pour la comparaison de contenu des objets
+Est un opérateur | Est une méthode
+Pour la comparaison de références (ou d'adresses, emplacement de mémoire) |  Pour la comparaison de contenu des objets
 
 - 12 . Qu'est-ce qu'un objet immuable ? 
 Tu ne peux pas modifier les objets d'une classe immuable une fois qu'ils sont créés. En d'autres termes, une fois que tu les crées, tu ne peux pas les modifier.
@@ -66,6 +66,15 @@ Une abstract class est une classe qui permet de définir une classe sans que cet
 
 - 18 . C’est quoi une interface?
 C’est une classe abstraite, qui permet de regrouper un certain nombre de définition des méthodes sans qu’elle soit instanciée. Pour l’exploiter il faut l’implémenter
+
+Quelle est la différence entre une classe abstraite et une interface ?
+
+Classe abstraite	 | Interface
+--- | --- 
+Les constructeurs sont autorisés	| Une interface ne peut pas avoir de constructeur.
+Les méthodes static sont autorisées	| Les méthodes static ne sont pas autorisées
+Une classe ne peut avoir qu'un seul parent abstrait | Une classe peut implémenter plusieurs interfaces
+Une classe Java abstraite peut avoir des membres de classe private et protected | Les membres d'une interface Java sont public par défaut
 
 - 19 . Peut-on exécuter un programme sans la méthode main ?
 la réponse est : oui, c'est possible. Par exemple, nous pouvons le faire à l'aide d'un bloc static.
