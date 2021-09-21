@@ -39,7 +39,11 @@ Overloading : décrit le fait que deux méthodes (ou plus) peuvent avoir le mêm
 Overriding : décrit le fait que deux méthodes (ou plus) peuvent avoir le même nom et les mêmes parametres avec une relation mère-fille entre elles.
 
 - 11 . Quelle est la différence entre equals() et ==?
-Tout d'abord, == est un opérateur, tandis qu'equals() est une méthode. Nous utilisons l'opérateur == pour la comparaison de références (ou d'adresses), et la méthode equals() pour la comparaison de contenu. Cela signifie que == vérifie si les deux objets pointent vers le même emplacement de mémoire, tandis qu'equals() compare les valeurs contenues dans les objets.
+
+== | equals() 
+--- | --- 
+est un opérateur | est une méthode
+pour la comparaison de références (ou d'adresses, emplacement de mémoire) |  pour la comparaison de contenu des objets
 
 - 12 . Qu'est-ce qu'un objet immuable ? 
 Tu ne peux pas modifier les objets d'une classe immuable une fois qu'ils sont créés. En d'autres termes, une fois que tu les crées, tu ne peux pas les modifier.
