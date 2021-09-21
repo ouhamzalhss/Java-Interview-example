@@ -25,11 +25,11 @@
 
 - 8 . Quelles sont les étapes pour établir une connexion à une base de données?
   *  Enregistrer le driver
-Créer la connexion
-Créer le statement
-Exécuter la requête
-Récupérer les résultats ou l’état de l’exécution
-Fermer la connexion
+  *  Créer la connexion
+  *  Créer le statement
+  *  Exécuter la requête
+  *  Récupérer les résultats ou l’état de l’exécution
+  *  Fermer la connexion
 
 - 9 . Qu’est-ce qu’un constructeur? quels sont ses type?
 Un constructeur est un bloc de code utilisé pour initialiser un objet. On distingue deux types de constructeur : constructeur par défaut, et constructeur paramètré.
@@ -39,30 +39,45 @@ Overloading : décrit le fait que deux méthodes (ou plus) peuvent avoir le mêm
 Overriding : décrit le fait que deux méthodes (ou plus) peuvent avoir le même nom et les mêmes parametres avec une relation mère-fille entre elles.
 
 - 11 . Quelle est la différence entre equals() et ==?
-equals() : utilisée pour comparer deux objets de point de vue logique métier
-== : utilisée pour comparer les primitifs ou les objets de point de vue valeur.
+Tout d'abord, == est un opérateur, tandis qu'equals() est une méthode. Nous utilisons l'opérateur == pour la comparaison de références (ou d'adresses), et la méthode equals() pour la comparaison de contenu. Cela signifie que == vérifie si les deux objets pointent vers le même emplacement de mémoire, tandis qu'equals() compare les valeurs contenues dans les objets.
 
-- 12 . Qu’est ce qu’un thread?
+- 12 . Qu'est-ce qu'un objet immuable ? 
+Tu ne peux pas modifier les objets d'une classe immuable une fois qu'ils sont créés. En d'autres termes, une fois que tu les crées, tu ne peux pas les modifier.
+
+- 13 . Qu’est ce qu’un thread?
 Thread est une classe permettant d’exécuter un programme. En Java, chaque programme a au moins un thread en cours d’exécution (main). 
 
-- 13 . C’est quoi le Garbage Collector?
+- 14 . C’est quoi le Garbage Collector?
 C’est un mécanisme défini dans la JVM pour faire le ménage. Si un objet n’est plus utilisé, il sera automatiquement détruit pour libérer les ressources.
 
-- 14 . Est-ce que les tableaux sont des primitifs en Java? Non, ce sont des objets.
+- 15 . Est-ce que les tableaux sont des primitifs en Java? Non, ce sont des objets.
 
-- 15 . Qu’est-ce qu’une exception?
+- 16 . Qu’est-ce qu’une exception?
 C’est un problème qui se produit lors de l’exécution d’un programme, et qui nécessite un traitement spéciale pour le bon fonctionnement de l’application. Ceci peut être réalisé, soit par:
   *  l’envoi de l’exception à un niveau supérieur (throws) 
   *  ou par la capture et le traitement au niveau local (try/catch)
 
-- 16 . C’est quoi une classe abstraite? 
+- 17 . C’est quoi une classe abstraite? 
 Une abstract class est une classe qui permet de définir une classe sans que cette dernière soit instanciable. Pour l’exploiter il faut absolument passer par l’héritage. C’est une technique qui renforce la programmation orientée-objet POO.
 
-- 17 . C’est quoi une interface?
+- 18 . C’est quoi une interface?
 C’est une classe abstraite, qui permet de regrouper un certain nombre de définition des méthodes sans qu’elle soit instanciée. Pour l’exploiter il faut l’implémenter
 
-- 18 . Qu’est ce qu’une servlet?
+- 19 . Peut-on exécuter un programme sans la méthode main ?
+la réponse est : oui, c'est possible. Par exemple, nous pouvons le faire à l'aide d'un bloc static.
+
+- 20 . Peut-on déclarer des variables et méthodes static dans une classe abstraite ?
+Oui, il est possible de déclarer des variables et des méthodes static dans une classe abstraite. Il n'est pas nécessaire de créer un objet pour accéder au contexte statique.
+
+- 21 . Y a-t-il une différence entre un objet String créé sous forme littérale et un créé avec l'opérateur new() ?
+Il y en a une. Si nous créons un objet String avec l'opérateur new(), il apparaît dans le tas et n'est pas ajouté au pool de String. Si nous créons un objet String sous forme littérale.
+
+- 22 . Quelle est la différence entre les classes String, StringBuilder et StringBuffer en Java ?
+Tout d'abord, String est une classe immuable. Cela signifie que tu ne peux pas modifier son contenu après création. Mais StringBuffer et StringBuilder sont des classes mutables. Si nous essayons de modifier le contenu d'un objet String, la JVM crée une nouvelle chaîne. C'est pourquoi les performances sont meilleures avec StringBuffer qu'avec String.
+La principale différence entre StringBuffer et StringBuilder est que les méthodes de StringBuffer sont synchronisées, alors que celles de StringBuilder non.
+
+- 23 . Qu’est ce qu’une servlet?
 C’est une classe java qui s’exécute dans contexte au niveau du serveur. Elle permet de recevoir les requêtes client et y répondre en utilisant le protocole HTTP. pour la créer il suffit d’étendre HttpServlet ou bien d’implémenter l’interface Servlet.
 
-- 19 . Qu’est ce qu’une JSP?
-Java Server Page. C’est une technique basée sur Java permettant aux développeur de créer dynamiquement du code HTML ou XML ou autre format supporté par les navigateurs. Elle permet aussi de créer ce qu’on appelle les taglib comme étant l’extension du l’HTML et l’XML.
+- 24 . Qu’est ce qu’une JSP?
+Java Server Page. C’est une technique basée sur Java permettant aux développeur de créer dynamiquement du code HTML ou XML ou autre format supporté par les navigateurs.
