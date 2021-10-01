@@ -43,7 +43,7 @@ Overriding : décrit le fait que deux méthodes (ou plus) peuvent avoir le même
 == | equals() 
 --- | --- 
 Est un opérateur | Est une méthode
-Pour la comparaison de références (ou d'adresses, emplacement de mémoire) |  Pour la comparaison de contenu des objets
+Pour la comparaison des primitives et des objets (leurs réferneces) |  Pour la comparaison de contenu des objets
 
 - 12 . Qu'est-ce qu'un objet immuable ? 
 Tu ne peux pas modifier les objets d'une classe immuable une fois qu'ils sont créés. En d'autres termes, une fois que tu les crées, tu ne peux pas les modifier.
