@@ -6,6 +6,8 @@
 
 - 3 . Qu’es-ce qu’une méthode? C’est l’action qu’un objet peut faire.
 
+- 4 . Heap vs stack
+
 - 4 . La différence entre JDK, JVM et JRE:
   *  JDK : Java Devlopment Kit. C’est l’ensemble des packages et programmes qu’on utilise pour écrire nos propres programmes.
   *  JRE : Java Runtime Environment . C’est la couche logicielle fournissant les packages et les ressources nécessaires pour qu’un programme java puisse s'exécuter.
