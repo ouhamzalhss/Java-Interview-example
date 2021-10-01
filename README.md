@@ -1,16 +1,16 @@
 ## <samp>Les questions Java dans un entretien technique </samp>
 
-- 1 . Qu’est ce qu’une class Java? C’est une template définissant un type de donnée. Elle est utilisée pour créer un objet.
+- 1 . C'est quoi une classe Java? C’est une template définissant un type de données. Elle est utilisée pour créer des objets.
 
 - 2 . Qu’est-ce qu’un objet? C’est un élément d’une classe (instance)
 
-- 3 . Qu’es-ce qu’une méthode? C’est l’action (le comportement) qu’un objet peut faire.
+- 3 . Qu’es-ce qu’une méthode? C’est l’action qu’un objet peut faire.
 
 - 4 . La différence entre JDK, JVM et JRE:
-  *  JDK : Java Devlopment Kit. C’est l’ensemble des packages et programme qu’on utilise pour écrire nos propres programmes.
-  *  JVM : Java Virtuel Machine. C’est l’environnement dans lequel les codes compilés des applications Java (Byte Code) s’exécutent.
-  *  JRE : Java Runtime Environment . C’est la couche logicielle fournissant les packages et les ressources nécessaires pour qu’un programme java puisse tourner.
-  
+  *  JDK : Java Devlopment Kit. C’est l’ensemble des packages et programmes qu’on utilise pour écrire nos propres programmes.
+  *  JRE : Java Runtime Environment . C’est la couche logicielle fournissant les packages et les ressources nécessaires pour qu’un programme java puisse s'exécuter.
+  *  JVM : Java Virtuel Machine. C’est l’environnement dans lequel le code Java (Byte Code) s’exécute.
+
 - 5 . Est-ce que Java utilise les pointeurs? Non, Java importe une couche de sécurité en utilisant les références à la place des pointeurs. Donc pas de pointeurs.
 
 - 6 . les modificateurs d’accès en java: Ce sont les mots clés utilisés pour spécifier l’accès et la porté des objets,
