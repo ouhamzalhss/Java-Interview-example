@@ -46,10 +46,11 @@ Est un opérateur | Est une méthode
 Pour la comparaison des primitives et des objets (leurs réferneces) |  Pour la comparaison de contenu des objets
 
 - 13 . Qu'est-ce qu'un objet immuable ? 
-Tu ne peux pas modifier les objets d'une classe immuable une fois qu'ils sont créés. En d'autres termes, une fois que tu les crées, tu ne peux pas les modifier.
+Tu ne peux pas modifier les objets d'une classe immuable une fois qu'ils sont créés. (ex String)
 
-- 14 . Qu’est ce qu’un thread?
-Thread est une classe permettant d’exécuter un programme. En Java, chaque programme a au moins un thread en cours d’exécution (main). 
+- 14 . Différence entre Arraylist et List
+  * List est une interface qui contient des méthodes abstraites. Une interface est un contrat qui doit être respecté par les développeurs.
+  * ArrayList est une classe qui implémente l’interface List et respecte ce contrat. 
 
 - 15 . C’est quoi le Garbage Collector?
 C’est un mécanisme défini dans la JVM pour faire le ménage. Si un objet n’est plus utilisé, il sera automatiquement détruit pour libérer les ressources.
@@ -59,13 +60,17 @@ C’est un problème qui se produit lors de l’exécution d’un programme, et 
   *  l’envoi de l’exception à un niveau supérieur (throws) 
   *  ou par la capture et le traitement au niveau local (try/catch)
 
-- 17 . C’est quoi une classe abstraite? 
+- 17 . Différence entre Exception et Error en java
+  * Error représente les erreurs principalement causées par l’environnement d’exécution de l’application.
+  * Exception représente les exceptions principalement causées par l’application elle-même. 
+  
+- 18 . C’est quoi une classe abstraite? 
 Une abstract class est une classe qui permet de définir une classe sans que cette dernière soit instanciable. Pour l’exploiter il faut absolument passer par l’héritage. C’est une technique qui renforce la programmation orientée-objet POO.
 
-- 18 . C’est quoi une interface?
+- 19 . C’est quoi une interface?
 C’est une classe abstraite, qui permet de regrouper un certain nombre de définition des méthodes sans qu’elle soit instanciée. Pour l’exploiter il faut l’implémenter
 
-- 19 . Quelle est la différence entre une classe abstraite et une interface ?
+- 20 . Quelle est la différence entre une classe abstraite et une interface ?
 
 Classe abstraite	 | Interface
 --- | --- 
@@ -74,17 +79,24 @@ Les méthodes static sont autorisées	| Les méthodes static ne sont pas autoris
 Une classe ne peut avoir qu'un seul parent abstrait | Une classe peut implémenter plusieurs interfaces
 Une classe Java abstraite peut avoir des membres de classe private et protected | Les membres d'une interface Java sont public par défaut
 
-- 20 . Peut-on exécuter un programme sans la méthode main ?
+- 21 . Différence entre une méthode statique et non statique
+Une méthode statique appartient à une classe et une méthode non statique appartient à un objet d’une classe. 
+Une méthode statique ne peut accéder qu’aux membres statiques. Une méthode non statique peut accéder aux membres statiques et non statiques,
+
+- 22 . Peut-on exécuter un programme sans la méthode main ?
 la réponse est : oui, c'est possible. Par exemple, nous pouvons le faire à l'aide d'un bloc static.   static{...code}
 
-- 21 . Quelle est la différence entre les classes String, StringBuilder et StringBuffer en Java ?
+- 23 . Quelle est la différence entre les classes String, StringBuilder et StringBuffer en Java ?
 
 String | StringBuilder | StringBuffer
 --- | --- | ---
 String est une classe immuable. | Mutable | Mutable
 ... | non synchronisée  (not thread safe) | synchronisée  (thread safe)
 
-- 22 . Quelles sont les étapes pour établir une connexion à une base de données?
+- 24 . size() vs length
+La méthode size() fonctionne avec les collections, tandis que la propriété length fonctionne avec les tableaux.
+
+- 25 . Quelles sont les étapes pour établir une connexion à une base de données?
   *  Enregistrer le driver
   *  Créer la connexion
   *  Créer le statement
