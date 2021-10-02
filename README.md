@@ -1,4 +1,4 @@
-## <samp>Les questions Java dans un entretien technique </samp>
+## <samp>Les top 25 questions Java dans un entretien technique </samp>
 
 - 1 . C'est quoi une classe Java? C’est une template définissant un type de données. Elle est utilisée pour créer des objets.
 
