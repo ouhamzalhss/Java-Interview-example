@@ -8,7 +8,7 @@
 
 - 4 . Heap vs Stack
   *  Heap: Lorsqu'un objet est créé, il est toujours créé dans Heap.
-  *  Stack: Lorsqu'une fonction est appelée, un bloc est réservé en haut de Stack pour stocker ses variables locales. aussi on trouve les références aux objets stockés dans Heap qui sont utilisés par cette méthode.
+  *  Stack: Lorsqu'une fonction est appelée, un bloc est réservé en haut de Stack pour stocker ses variables locales. aussi on trouve les références aux objets qui sont utilisés par cette méthode.
 
 - 5 . La différence entre JDK, JVM et JRE:
   *  JDK : Java Devlopment Kit. C’est l’ensemble des packages et programmes qu’on utilise pour écrire nos propres programmes.
