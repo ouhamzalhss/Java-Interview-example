@@ -7,7 +7,7 @@
 - 3 . Qu’es-ce qu’une méthode? C’est l’action qu’un objet peut faire.
 
 - 4 . Heap vs Stack
-  *  Heap: Lorsqu'un objet est créé, il est toujours créé dans Heap et a un accès global.
+  *  Heap: Lorsqu'un objet est créé, il est toujours créé dans Heap.
   *  Stack: Lorsqu'une fonction est appelée, un bloc est réservé en haut de Stack pour stocker ses variables locales. aussi on trouve les références aux objets stockés dans Heap qui sont utilisés par cette méthode.
 
 - 5 . La différence entre JDK, JVM et JRE:
