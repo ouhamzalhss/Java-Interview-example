@@ -82,7 +82,7 @@ la réponse est : oui, c'est possible. Par exemple, nous pouvons le faire à l'a
 String | StringBuilder | StringBuffer
 --- | --- | ---
 String est une classe immuable. | Mutable | Mutable
-- | non synchronisée  (not thread safe) | synchronisée  (thread safe)
+... | non synchronisée  (not thread safe) | synchronisée  (thread safe)
 
 - 22 . Quelles sont les étapes pour établir une connexion à une base de données?
   *  Enregistrer le driver
