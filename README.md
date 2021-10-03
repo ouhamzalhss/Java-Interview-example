@@ -93,8 +93,8 @@ Méthode statique | Méthode non statique
  appartient à une classe | appartient à un objet d’une classe. 
  ne peut accéder qu’aux membres statiques. |  peut accéder aux membres statiques et non statiques,
 
-- 22 . Peut-on exécuter un programme sans la méthode main ?
-oui, c'est possible. Par exemple, nous pouvons le faire à l'aide d'un bloc static.   static{...code}
+- 22 . Ordre d'execution d'un programme java:
+static block -> Initialization block -> Constructor.
 
 - 24 . size() vs length
 La méthode size() fonctionne avec les collections, tandis que la propriété length fonctionne avec les tableaux.
